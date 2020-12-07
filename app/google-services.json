@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "771513420943",
+    "project_id": "socialsnapapmii2021",
+    "storage_bucket": "socialsnapapmii2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771513420943:android:ddda4d8c078796b75f74fa",
+        "android_client_info": {
+          "package_name": "ipcasergio.am2.socialsnap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771513420943-h2dhvgcajjti2u9qh8e0mkr2p500fqal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn893YIWyHN9YrDRQrsJBnWQH5YKbY3NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771513420943-h2dhvgcajjti2u9qh8e0mkr2p500fqal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771513420943:android:0e8c1c6539b1859b5f74fa",
+        "android_client_info": {
+          "package_name": "ipcasergio.am2.socialsnapapmii202_revisao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771513420943-h2dhvgcajjti2u9qh8e0mkr2p500fqal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn893YIWyHN9YrDRQrsJBnWQH5YKbY3NQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771513420943-h2dhvgcajjti2u9qh8e0mkr2p500fqal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

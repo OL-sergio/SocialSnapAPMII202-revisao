@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="ipcasergio.am2.socialsnapapmii202_revisao.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/activity_home_fragment">
+        <action android:id="@+id/action_navigation_home_to_photoDetailFragment"
+            app:destination="@id/photoDetailFragment">
+        </action>
+
+    </fragment>
+    <fragment android:id="@+id/photoDetailFragment"
+        android:name="ipcasergio.am2.socialsnapapmii202_revisao.home.PhotoDetailFragment"
+        android:label="activity_photo_detail"
+        tools:layout="@layout/activity_photo_detail">
+        <argument
+            android:name="snapitemId"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+
+</navigation>
